@@ -1,0 +1,29 @@
+
+.form-error {
+    display: inline-block;
+    padding: 6px 10px 4px 25px;
+    color: #A94442;
+    background-image: url(../../adminbsb/images/icon_error.png);
+    background-position: 5px 7px;
+    background-repeat: no-repeat;
+    background-color: #F2DEDE;
+}
+
+.cover_border {
+    width: 100px;
+    border: 1px solid #aaaaaa;
+    padding: 2px;
+}
+
+.cover_border:hover {
+    z-index: 4;
+    transition: all 2s;
+    -o-transition: all 2s;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    -webkit-transform: scale(2);
+    box-shadow: 2px 2px 6px rgba(0,0,0,2);
+}
